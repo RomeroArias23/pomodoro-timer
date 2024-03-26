@@ -1,0 +1,36 @@
+.header {
+    background-color: #575757;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .logo button:hover {
+    background-color: transparent;
+    border: #575757;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the width as per your logo size */
+    height: auto;
+    padding: 5px;
+    border-radius: 60px;
+    align-items: left;
+  }
+
+  .logo h1 {
+    text-align: center;
+  }

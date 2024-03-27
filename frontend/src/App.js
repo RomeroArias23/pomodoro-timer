@@ -1,10 +1,15 @@
 import React from 'react';
-import './App.css';
 import Header from './components/header/header';
+import Timer from './components/timer/timer';
+import './App.css';
 
-function App() {
+const App = () => {
   return (
-      <Header />
+    
+    <div className="App">
+      <Header/>
+      <Timer/>
+    </div>
   );
 }
 

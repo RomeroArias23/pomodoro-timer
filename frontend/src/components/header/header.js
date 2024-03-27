@@ -1,19 +1,16 @@
-import React from 'react';
 import '../header/header.css';
-import logo from '/Users/diegoromero/Coding/pomodoro-timer/frontend/src/resources/logo.png';
+import logo from '../../resources/logo.png';
+import React from 'react';
+import Settings from '../header/settings/settings';
 
-const Header = () => {
-  return (
-    <header className="header">
-      <div className="logo">
-        <button>
-            <img src={logo} alt="logo" />
-        </button>
-        
-        <h1 className='title'>Pomodoro Timer</h1>
-      </div>
-    </header>
-  );
+
+function Header() {
+    return (
+        <header className="header">
+            <img src={logo} alt="Pomodoro Timer" className="logo" />
+
+        </header>
+    );
 }
 
 export default Header;

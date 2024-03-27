@@ -1,18 +1,18 @@
+body {
+  background-color: #61dafb;
+  color:aliceblue;
+}
+main{
+  padding-top:50px;
+  max-width: 340px;
+  margin: 0 auto;
+}
+
 .App {
   text-align: center;
+  background-color: #61dafb;
+  color:aliceblue;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}

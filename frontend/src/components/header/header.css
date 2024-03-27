@@ -1,36 +1,14 @@
 .header {
-    background-color: #575757;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .logo button {
-    background-color: transparent;
-    border: none;
-  }
-
-  .logo button:hover {
-    background-color: transparent;
-    border: #575757;
-  }
-  
-  .logo img {
-    width: 100px; /* Adjust the width as per your logo size */
-    height: auto;
     padding: 5px;
-    border-radius: 60px;
-    align-items: left;
+    text-align: left;
+    background: #1abc9c;
+    padding-left: 0%;
+    color: white;
+    font-size: 15px;
   }
 
-  .logo h1 {
-    text-align: center;
-  }
+.header img {
+    width: 150px;
+    display: left;
+    margin-left: 50px;
+}

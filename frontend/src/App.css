@@ -1,3 +1,7 @@
+:root {
+  --white: #fff;
+}
+
 body {
   background-color: #61dafb;
   color:aliceblue;

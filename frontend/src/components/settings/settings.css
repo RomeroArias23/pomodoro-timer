@@ -1,0 +1,32 @@
+.settings {
+    text-align:left;
+    padding:50px;
+}
+
+label {
+    display: block;
+    text-align:left;
+    font-size: 20px;
+}
+
+.slider {
+    height: 40px;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.thumb {
+    background-color: var(--white);
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+label {
+    display:block;
+    margin-bottom: 10px;
+    margin-top:20px;
+    text-transform: capitalize;
+}

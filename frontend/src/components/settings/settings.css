@@ -30,3 +30,14 @@ label {
     margin-top:20px;
     text-transform: capitalize;
 }
+
+.back-button {
+    margin-top:20px;
+    background-color: transparent;
+    color:aliceblue;
+    border: 0;
+    display: inline-block;
+    width: 100px;
+}
+
+

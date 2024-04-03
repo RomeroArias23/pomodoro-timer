@@ -13,8 +13,8 @@ const spotifyApi = new SpotifyWebApi({
 });
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
+    res.send('👿ANGRYYYYYY')
+  });
 
 app.get('/login', (req, res) => {
     const scopes = ['user-read-private', 'user-read-email', 'user-read-playback-state', 'user-modify-playback-state'];
